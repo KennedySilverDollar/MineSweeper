@@ -124,7 +124,7 @@ export const App = (): React.JSX.Element => {
             boxSizing: "border-box",
             backgroundColor: "#fff",
         }}>
-            <h1>💣マインスイーパー</h1>
+            <h1 style={{ color: "red" }}>💣マインスイーパー</h1>
 
             {gameState === "gameOver" && (
                 <div style={{
